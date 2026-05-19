@@ -62,5 +62,29 @@ GENERAL_INFO = {
             "A/N     = Production facility",
             "000 234 = Serial number"
         ]
+    },
+"vehicle_data_label": {
+        "category": "General Information",
+        "subcategory": "Identification",
+        "section": "Vehicle Data Label",
+        "workflow": [
+            "",
+            "=== VEHICLE DATA LABEL ===",
+            "",
+            "Location:",
+            "1. In the maintenance schedule or Owner's Manual",
+            "2. Near the spare tire well under the carpet covering",
+            "",
+            "",
+            "=== VEHICLE DATA LABEL CONTENTS ===",
+            "",
+            "1 - Vehicle Identification Number (VIN)",
+            "2 - Vehicle Model, Manufacturer Identification, Engine Version",
+            "    and Output, Production Month/Year",
+            "3 - Engine and Transmission Codes",
+            "    (no information for certain countries)",
+            "4 - Paint Number, Interior Equipment Number",
+            "5 - Optional Equipment Numbers"
+        ]
     }
-    }
+    
