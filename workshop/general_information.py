@@ -22,4 +22,45 @@ GENERAL_INFO = {
         ]
     }
 
-}
+},
+"vin_location": {
+        "category": "General Information",
+        "subcategory": "Identification",
+        "section": "Vehicle Identification Number (VIN)",
+        "specs": {
+            "vin_structure": {
+                "WAU": "Manufacturer identification",
+                "ZZZ": "Filler character",
+                "4M": "Type",
+                "Z": "Filler character",
+                "B": "Model year",
+                "A/N": "Production facility",
+                "000 234": "Serial number"
+            }
+        },
+        "workflow": [
+            "",
+            "=== VEHICLE IDENTIFICATION NUMBER (VIN) ===",
+            "",
+            "The location of the VIN depends on the equipment and market version:",
+            "",
+            "1. On the lower left edge of the windshield",
+            "2. Optional: In the MMI under >>Service & Control<<",
+            "3. Stamped on the floor behind the front passenger seat",
+            "4. On vehicle data label",
+            "",
+            "",
+            "=== VIN STRUCTURE ===",
+            "",
+            "WAU ZZZ 4M Z B A/N 000 234",
+            "",
+            "WAU     = Manufacturer identification",
+            "ZZZ     = Filler character",
+            "4M      = Type",
+            "Z       = Filler character",
+            "B       = Model year",
+            "A/N     = Production facility",
+            "000 234 = Serial number"
+        ]
+    }
+    }
