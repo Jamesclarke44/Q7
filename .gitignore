@@ -1,0 +1,4 @@
+*.pyc
+__pycache__/
+.DS_store
+audi_q7_maintenance.json
